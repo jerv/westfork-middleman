@@ -7,6 +7,11 @@
 #   config.output_style = :compact
 # end
 
+# Assumes the file source/about/template.html.erb exists
+["16th and O", "65TH and Folsom", "Greenbacks Oaks"].each do |name|
+  proxy "/projects/#{name}.html", "/projects/template.html", :locals => { :person_name => name }
+end
+
 ###
 # Page options, layouts, aliases and proxies
 ###
