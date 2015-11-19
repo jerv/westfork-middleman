@@ -7,9 +7,8 @@
 #   config.output_style = :compact
 # end
 
-# Assumes the file source/about/template.html.erb exists
-["16th", "65TH", "green"].each do |name|
-  proxy "/projects/#{name}.html", "/projects/template.html", :locals => { :person_name => name }
+data.projectdata.projects.each do |p|
+  proxy "#{p.slug}.html", "project.html", :locals => { :project => p }, :ignore => true
 end
 
 ###

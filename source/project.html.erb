@@ -1,0 +1,25 @@
+<div class="window black">
+  <div class="container">
+    <h1><%= project.title %></h1>
+  </div>
+</div>
+<div class="container row window">
+  <div class="columns four projects-images">
+    <% project.images.each do |i| %>
+      <% link_to i do %>
+        <%= image_tag i %>
+      <% end %>
+    <% end %>
+    <a href="img/65th4.jpg"><img src="img/65th4.jpg"></a>
+    <a href="img/65th3.jpg"><img src="img/65th3.jpg"></a>
+    <a href="img/65th2.jpg"><img src="img/65th2.jpg"></a>
+    <a href="img/65th1.jpg"><img src="img/65th1.jpg"></a>
+  </div>
+  <div class="columns eight">
+    <h4 class="header-margin"><%= project.title %></h4>
+    <h6 class="orange"><%= project.address %></h6>
+    <p>
+      <%= project.description %>
+    </p>
+  </div>
+</div>
