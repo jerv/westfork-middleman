@@ -1,0 +1,67 @@
+.project-module {
+	position: relative;
+	overflow:hidden;
+	margin-bottom: 25px;
+	display: block;
+	color: #333;
+	h5 {
+		line-height: 1;
+		margin:0;
+		background-color: rgba(250,250,250,0.4);
+		@include position(absolute, null null 0 0);
+		padding: 15px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		width: 100%;
+		@include transition(all, 0.3s);
+	}
+	p {
+		position:absolute;
+		background-color: rgba(250,250,250,0.4);
+		z-index: 2;
+		margin: 0;
+		bottom: -100%;
+		padding: 10px;
+		font-size: 10px;
+		font-weight: bold;
+		width: 100%;
+		@include transition(all, 0.3s);
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	&:hover {
+		color: #333;
+		h5 {
+			opacity: 0;
+		}
+		p {
+			bottom: 0;
+		}
+	}
+	&:focus, &:active {
+		color: #333;
+	}
+}
+
+.projects-images {
+	img {
+		margin-bottom: 10px;
+		cursor: pointer;
+		cursor: -webkit-zoom-in;
+	}
+	img:nth-of-type(2n + 2) {
+		width: 48%;
+		float:left;
+	}
+	img:nth-of-type(2n + 1) {
+		@extend img:nth-of-type(2n + 2);
+		margin-left: 4%;
+	}
+	img:first-of-type {
+		width: 100%;
+		display: block;
+		margin: 0 0 10px 0;
+	}
+}
