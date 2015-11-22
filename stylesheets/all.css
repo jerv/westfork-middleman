@@ -2735,22 +2735,23 @@ footer {
 .projects-images img {
   margin-bottom: 10px;
   cursor: pointer;
-  cursor: -webkit-zoom-in; }
-/* line 54, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
-.projects-images img:nth-of-type(2n + 2), .projects-images img:nth-of-type(2n + 1) {
+  cursor: -webkit-zoom-in;
+  display: block; }
+/* line 55, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
+.projects-images a:nth-of-type(2n + 2), .projects-images a:nth-of-type(2n + 1) {
   width: 48%;
   float: left; }
-/* line 58, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
-.projects-images img:nth-of-type(2n + 1) {
+/* line 59, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
+.projects-images a:nth-of-type(2n + 1) {
   margin-left: 4%; }
-/* line 62, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
-.projects-images img:first-of-type {
+/* line 63, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
+.projects-images a:first-of-type {
   width: 100%;
   display: block;
   margin: 0 0 10px 0; }
 
 @media (min-width: 860px) {
-  /* line 69, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
+  /* line 70, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
   .fixer {
     margin-left: 25% !important; } }
 
