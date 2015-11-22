@@ -1,0 +1,58 @@
+---
+title: Projects
+---
+
+<div class="window black">
+	<div class="container">
+		<h1>Projects</h1>
+	</div>
+</div>
+
+<div class="container row window l-projects">
+	<div class="columns twelve">
+		<h2>New</h2>
+		<div class="row">
+			<% data.projectdata.newest.each do |n| %>
+				<div class="columns four">
+					<a href="<%= n.slug %>">
+					  <img src="images/<%= n.images[0] %>">
+					  <h5><%= n.title %></h5>
+					</a>
+				</div>
+			<% end %>
+		</div>
+		<h2>Apartments</h2>
+		<div class="row">
+			<% data.projectdata.apartments.each do |apart| %>
+				<div class="columns four">
+					<a href="<%= apart.slug %>">
+					  <img src="images/<%= apart.images[0] %>">
+					  <h5><%= apart.title %></h5>
+					</a>
+				</div>
+			<% end %>
+		</div>
+		<h2>Medical</h2>
+		<div class="row">
+			<% data.projectdata.medical.each do |med| %>
+				<div class="columns four">
+					<a href="<%= med.slug %>">
+					  <img src="images/<%= med.images[0] %>">
+					  <h5><%= med.title %></h5>
+					</a>
+				</div>
+			<% end %>
+		</div>
+		<h2>Commercial</h2>
+		<div class="row">
+			<% data.projectdata.commercial.each do |com| %>
+				<div class="columns four">
+					<a href="<%= com.slug %>">
+					  <img src="images/<%= com.images[0] %>">
+					  <h5><%= com.title %></h5>
+					</a>
+				</div>
+			<% end %>
+		</div>
+	</div>
+</div>

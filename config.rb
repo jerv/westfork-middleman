@@ -17,15 +17,15 @@ apartments.each do |p|
 end
 
 medical.each do |p|
-  proxy "/projects/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
+  proxy "/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
 end
 
 commercial.each do |p|
-  proxy "/projects/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
+  proxy "/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
 end
 
 newest.each do |p|
-  proxy "/projects/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
+  proxy "/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
 end
 
 

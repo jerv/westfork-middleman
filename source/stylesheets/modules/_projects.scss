@@ -72,3 +72,22 @@
 		margin-left: 25% !important;
 	}
 }
+
+.l-projects {
+	a {
+		color: #777;
+		&:hover {
+			color: $orange;
+		}
+	}
+	h5 {
+		font-size: 14px;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 25px;
+	}
+	.four:nth-of-type(4n) {
+		clear: both;
+		margin-left: 0;
+	}
+}

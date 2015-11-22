@@ -27,20 +27,62 @@ medical:
   -
     title: Greenback Oaks
     slug: green-oaks
+    address: 5777 GREENBACK LANE SACRAMENTO, CA
+    images:
+      - green1.jpg
+      - green2.jpg
+      - green3.jpg
+      - green4.jpg
+    description: |
+      Start and completion date: July 2008 – November 2008. Project Description: This was new construction project located on a 5 acre site. 5 single story & 2 two story buildings were placed on the property around existing native oak trees to create this beautiful medical office park. Most notable of the interior improvements was the Sutter Family Practice Suite. Project Size: 12,252 sq. ft.
   -
     title: Sutter Medical Plaza
     slug: sutter
+    address: 1625 STOCKTON BLVD. SACRAMENTO, CA
+    images:
+      - sutter1.jpg
+      - sutter2.jpg
+    description: |
+      Project Description: This was a Design/Build 46,000 sq. ft. construction of new medical office and common area with a 120 calendar days schedule. Project was completed on time and West Fork Construction was able to return $190,000 to the owners through value engineering by the IPD Team. Project Size: 46,000 sq. ft.
   -
     title: Sutter Medical Plaza Pediatrics
     slug: sutter-pediatrics
+    address: 1625 STOCKTON BLVD. SACRAMENTO, CA
+    images:
+      - sut1.jpg
+      - sut2.jpg
+      - sut3.jpg
+    description: |
+      Project Description: This was a Design/Build 46,000 sq. ft. construction of new medical office and common area with a 120 calendar days schedule. Project was completed on time and West Fork Construction was able to return $190,000 to the owners through value engineering by the IPD Team. Project Size: 46,000 sq. ft.
 commercial:
   -
     title: Department of Human Assistance
     slug: dep-human-assistance
+    address: SACREMENTO, CA
+    images: 
+      - dep1.jpg
+      - dep2.jpg
+    description: |
+      Project Description: A Design Build project, privately owned and leased to the County of Sacramento Department of Human Assistance. This project involved extensive pre-construction planning with the Architect, Structural Engineer, Developer, County of Sacramento, and MEP Contractors. The work was divided into four phases. During each phase of construction all other areas remained fully functional for the tenant. Building 96,000 sq. ft
   -
     title: Granite Park
     slug: granite
+    address: SACREMENTO, CA
+    images: 
+      - gran1.jpg
+      - gran2.jpg
+      - gran3.jpg
+      - gran4.jpg
+    description: |
+      This project included the construction of a skate park, all weather sports field and a dog park with a 2-acre pond.
 newest:
   -
     title: Food Coop Parking Garage
     slug: food
+    address: 1111 address
+    images: 
+      - food1.jpg
+      - food2.jpg
+      - food3.jpg
+    description: |
+      description here
