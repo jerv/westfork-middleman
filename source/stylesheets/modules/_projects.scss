@@ -50,16 +50,17 @@
 		margin-bottom: 10px;
 		cursor: pointer;
 		cursor: -webkit-zoom-in;
+		display: block;
 	}
-	img:nth-of-type(2n + 2) {
+	a:nth-of-type(2n + 2) {
 		width: 48%;
 		float:left;
 	}
-	img:nth-of-type(2n + 1) {
-		@extend img:nth-of-type(2n + 2);
+	a:nth-of-type(2n + 1) {
+		@extend a:nth-of-type(2n + 2);
 		margin-left: 4%;
 	}
-	img:first-of-type {
+	a:first-of-type {
 		width: 100%;
 		display: block;
 		margin: 0 0 10px 0;

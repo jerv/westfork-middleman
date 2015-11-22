@@ -12,7 +12,7 @@ title: <%= project.title %> | Westfork Construction
     <% unless project.images.blank? %>
       <% project.images.each do |i| %>
         <% link_to i do %>
-          <%= image_tag i %>
+          <%= image_tag '../images/{i}' %>
         <% end %>
       <% end %>
     <% else %>
