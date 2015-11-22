@@ -2755,6 +2755,23 @@ footer {
   .fixer {
     margin-left: 25% !important; } }
 
+/* line 77, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
+.l-projects a {
+  color: #777; }
+  /* line 79, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
+  .l-projects a:hover {
+    color: #D64625; }
+/* line 83, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
+.l-projects h5 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px; }
+/* line 89, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
+.l-projects .four:nth-of-type(4n) {
+  clear: both;
+  margin-left: 0; }
+
 /* line 1, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
 .hero {
   padding: 80px 15px;

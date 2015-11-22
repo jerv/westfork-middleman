@@ -8,23 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= project.title %> | Westfork Construction</title>
+    <title>Projects</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <link href='http://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
-    <link href="../stylesheets/all.css" rel="stylesheet" />
-    <script src="../javascripts/all.js"></script>
+    <link href="stylesheets/all.css" rel="stylesheet" />
+    <script src="javascripts/all.js"></script>
   </head>
 
-  <body class="projects projects_green-oaks">
+  <body class="projects">
     <!-- NAV -->
 <nav class="trans">
   <div class="relative">
     <div id="hamburger"><span>MENU</span></div>
-<a id="siteid" href="/">      <img src="../images/logo.png" />
+<a id="siteid" href="/">      <img src="images/logo.png" />
 </a>    <div class="right">
       <span class="button button-none">(916) 452-8197</span>
       <a class="button button-primary" href="contact.html">Contact</a>
@@ -34,7 +34,7 @@
 <section class="mobile-menu">
   <ul>
     <li>
-<a href="project.html">        <span>Projects</span>
+<a href="projects.html">        <span>Projects</span>
 </a>    </li>
     <li>
 <a href="services.html">        <span>Services</span>
@@ -57,38 +57,76 @@
 </section>
 <!-- /NAV -->
 
-    <!-- 
-  GENERATED FROM projectddata.yml IN /data
--->
-
-<div class="window black">
-  <div class="container">
-    <h1>Greenback Oaks</h1>
-  </div>
-</div>
-<div class="container row window">
-  <div class="columns four projects-images">
-      <p>No images</p>
-  </div>
-  <div class="columns eight">
-    <h4 class="header-margin">Greenback Oaks</h4>
-      <p>No description</p>
-  </div>
+    <div class="window black">
+	<div class="container">
+		<h1>Projects</h1>
+	</div>
 </div>
 
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('.projects-images').magnificPopup({
-      delegate: 'a', // child items selector, by clicking on it popup will open
-      type: 'image',
-      gallery: {
-          // options for gallery
-          enabled: true
-        },
-    });
-  });
-</script>
-
+<div class="container row window l-projects">
+	<div class="columns twelve">
+		<h2>New</h2>
+		<div class="row">
+				<div class="columns four">
+					<a href="food">
+					  <img src="images/food1.jpg">
+					  <h5>Food Coop Parking Garage</h5>
+					</a>
+				</div>
+		</div>
+		<h2>Apartments</h2>
+		<div class="row">
+				<div class="columns four">
+					<a href="16th">
+					  <img src="images/16th1.jpg">
+					  <h5>16TH & O</h5>
+					</a>
+				</div>
+				<div class="columns four">
+					<a href="65th">
+					  <img src="images/65th1.jpg">
+					  <h5>65TH & FOLSOM</h5>
+					</a>
+				</div>
+		</div>
+		<h2>Medical</h2>
+		<div class="row">
+				<div class="columns four">
+					<a href="green-oaks">
+					  <img src="images/green1.jpg">
+					  <h5>Greenback Oaks</h5>
+					</a>
+				</div>
+				<div class="columns four">
+					<a href="sutter">
+					  <img src="images/sutter1.jpg">
+					  <h5>Sutter Medical Plaza</h5>
+					</a>
+				</div>
+				<div class="columns four">
+					<a href="sutter-pediatrics">
+					  <img src="images/sut1.jpg">
+					  <h5>Sutter Medical Plaza Pediatrics</h5>
+					</a>
+				</div>
+		</div>
+		<h2>Commercial</h2>
+		<div class="row">
+				<div class="columns four">
+					<a href="dep-human-assistance">
+					  <img src="images/dep1.jpg">
+					  <h5>Department of Human Assistance</h5>
+					</a>
+				</div>
+				<div class="columns four">
+					<a href="granite">
+					  <img src="images/gran1.jpg">
+					  <h5>Granite Park</h5>
+					</a>
+				</div>
+		</div>
+	</div>
+</div>
     <footer class="window orange">
   <div class="container">
     <div class="columns twelve footlink">
