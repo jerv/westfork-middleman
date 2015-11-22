@@ -1,7 +1,7 @@
 apartments:
   -
     title: 16TH & O
-    slug: 16th
+    slug: 16th-o
     address: 1510-1416 16TH STREET, SACRAMENTO, CA 95814
     images:
       - 16th1.jpg
@@ -14,7 +14,7 @@ apartments:
       Design building to include one 4 story mixed use apartments with wood and steel construction and one 5-story building with concrete podium deck and 4 stories of wood frame above. The 4-story building includes 6,160 sq ft of first floor retail and 24 apartment units above, totaling 35,820 building sq ft. The second building is 5-stories including 14,818 sq ft of first floor retail and 60 apartment units above, totaling 72,594 building sq ft.
   -
     title: 65TH & FOLSOM
-    slug: 65th
+    slug: 65th-folsom
     address: 6438 FOLSOM BLVD. SACRAMENTO, CA
     images:
       - 65th1.jpg
@@ -28,7 +28,7 @@ apartments:
 manliftelevators:
   -
     title: Bunge Woodland Rice Mill
-    slug: bunge
+    slug: bunge-woodland-rice-mill
     address: Woodland, CA
     images: 
       - bunge1.jpg
@@ -62,7 +62,7 @@ medical:
       This was a Design/Build 46,000 sq. ft. construction of new medical office and common area with a 120 calendar days schedule. Project was completed on time and West Fork Construction was able to return $190,000 to the owners through value engineering by the IPD Team.
   -
     title: Fort Sutter Tenant Improvements
-    slug: fort
+    slug: fort-sutter
     address: 2801 K Street, Sacramento, CA
     images: 
       - fort1.jpg
@@ -76,7 +76,7 @@ medical:
       West Fork has performed a majority of tenant improvements in this 96,000 sq. ft. medical complex. Improvements started in 1986, and West Fork has returned to perform several remodels for our original customers.
   -
     title: Lincoln Sutter Medical Plaza
-    slug: lincoln
+    slug: lincoln-sutter-medical-plaza
     address: Lincoln, CA
     images:
       - lincoln1.jpg
@@ -119,14 +119,14 @@ commercial:
     slug: starbucks
     address: 3615 Power Inn Road, Sacramento, CA
     images: 
-      -star1.jpg
-      -star2.jpg
-      -star3.jpg
+      - star1.jpg
+      - star2.jpg
+      - star3.jpg
     description: |
        West Fork built the building to match adjacent architecture and includes a drive-thru / parking / landscaping.
   -
     title: Granite Park
-    slug: granite
+    slug: granite-park
     address: Sacramento, CA
     images: 
       - gran1.jpg
@@ -138,7 +138,7 @@ commercial:
 newest:
   -
     title: Sutter Roseville Medical Office Building & Parking Structure
-    slug: roseville
+    slug: sutter-roseville
     address: Roseville, CA
     images:
       - rose1.jpg
@@ -153,7 +153,7 @@ newest:
       Located in Sutter's Roseville Medical Complex at North Sunrise Ave., the 5 story parking structure will provide 475 spaces,  and will be next to a 3 story 60,000 sq. ft medical office building.  West Fork will also be performing many of the tenant improvements for this site.
   -
     title: Natural Food Grocery Outlet & Parking Garage
-    slug: food
+    slug: natural-food-grocery-outlet
     address: R and 28th Streets, Midtown Sacramento
     images: 
       - food1.jpg
