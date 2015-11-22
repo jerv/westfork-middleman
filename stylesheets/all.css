@@ -2141,202 +2141,204 @@ img.mfp-img {
 body {
   font-family: "Open Sans", sans-serif; }
 
-/* line 8, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 7, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 img {
   width: 100%;
   max-width: 100%;
   display: block; }
 
-/* line 13, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 12, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 h2 {
-  font-family: "Slabo 13px", serif; }
+  font-family: "Slabo 13px", serif;
+  text-transform: none;
+  letter-spacing: 0; }
 
-/* line 16, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 17, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 ul {
   margin: 0;
   list-style-type: none; }
 
-/* line 21, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 22, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .max-720 {
   max-width: 720px;
   margin: 0 auto;
   display: block; }
 
-/* line 27, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 28, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .max-420 {
   max-width: 420px;
   margin: 0 auto;
   display: block; }
 
-/* line 33, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 34, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 h1.header-margin, h2.header-margin, h3.header-margin, h4.header-margin, h5.header-margin {
   margin: 0 0 10px 0 !important; }
 
-/* line 37, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 38, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .margin-none {
   margin: 0 !important; }
 
-/* line 41, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 42, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 a.white, a.white:hover, a.white:active, a.white:focus {
   color: #fff; }
 
-/* line 45, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 46, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 a.black, a.black:hover, a.black:active, a.black:focus {
   color: #333; }
 
-/* line 49, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 50, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 body {
   margin-top: 50px; }
 
-/* line 53, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 54, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 body.index {
   margin-top: 0px; }
 
-/* line 57, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 58, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 video {
   max-width: 100%;
   width: 100%;
   display: block; }
 
-/* line 63, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 64, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .styled {
   font-family: 'Slabo 13px', serif;
   font-weight: normal;
   margin-bottom: 10px;
   text-transform: none; }
 
-/* line 70, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 71, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .orange {
   color: #D64625; }
 
-/* line 74, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 75, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .black {
   background-color: #333;
   color: #fff; }
 
-/* line 79, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 80, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .black-bg {
   background-color: #333; }
 
-/* line 83, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 84, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .text-center {
   text-align: center; }
 
-/* line 87, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 88, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .relative {
   position: relative; }
 
-/* line 91, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 92, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .learn, .learn:hover, .learn:active {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase; }
-  /* line 96, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 97, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .learn.text-center, .learn:hover.text-center, .learn:active.text-center {
     display: block; }
-  /* line 99, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 100, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .learn:before, .learn:hover:before, .learn:active:before {
     content: "";
     font-family: fontawesome; }
 
-/* line 105, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 106, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .banner {
   padding: 40px 15px 40px 15px;
   background-color: #333; }
-  /* line 108, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 109, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .banner h2 {
     color: #fff;
     font-weight: 300;
     text-align: center;
     text-transform: none; }
     @media screen and (min-width: 750px) {
-      /* line 108, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+      /* line 109, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
       .banner h2 {
         font-size: 48px; } }
-  /* line 117, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 118, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .banner.orange {
     background-color: #D64625; }
-  /* line 120, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 121, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .banner.green {
     background-color: #35492F; }
 
-/* line 125, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 126, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .padded {
   padding: 45px 0; }
   @media all screen and (max-width: 750px) {
-    /* line 125, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+    /* line 126, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
     .padded {
       padding: 25px 0; } }
 
-/* line 132, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 133, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .padded-sm {
   padding: 25px 0; }
   @media all screen and (max-width: 750px) {
-    /* line 132, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+    /* line 133, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
     .padded-sm {
       padding: 12px 0; } }
 
-/* line 139, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 140, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .window {
-  padding: 65px 0; }
-  /* line 141, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  padding: 30px 0; }
+  /* line 142, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .window.black {
     background: #333;
     color: #fff; }
-  /* line 145, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 146, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .window.orange {
     background: #D64625;
     color: #fff; }
-  /* line 149, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 150, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .window.green {
     background-color: #35492F;
     color: #fff; }
-  @media all screen and (max-width: 750px) {
-    /* line 139, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  @media (min-width: 750px) {
+    /* line 140, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
     .window {
-      padding: 30px 0; } }
+      padding: 45px 0; } }
 
-/* line 158, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 159, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .content-menu {
   margin-bottom: 25px; }
-  /* line 160, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 161, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .content-menu h5 {
     border-bottom: 5px solid #D64625; }
-  /* line 163, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 164, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .content-menu ul {
     list-style-type: none;
     margin: 0; }
-    /* line 166, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+    /* line 167, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
     .content-menu ul li {
       margin: 0 0 7px 0; }
-      /* line 168, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+      /* line 169, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
       .content-menu ul li a, .content-menu ul li a:hover, .content-menu ul li a:focus, .content-menu ul li a:active {
         color: #D64625;
         display: block;
         font-size: 18px;
         line-height: 1.3; }
-        /* line 173, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+        /* line 174, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
         .content-menu ul li a:hover, .content-menu ul li a:hover:hover, .content-menu ul li a:focus:hover, .content-menu ul li a:active:hover {
           color: #ab381e; }
-      /* line 177, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+      /* line 178, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
       .content-menu ul li a.active {
         padding: 0 5px;
         border-left: 5px solid #333; }
 
-/* line 186, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 187, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .team img:first-of-type {
   margin-bottom: 35px; }
-/* line 189, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 190, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .team > h2 {
   margin-top: 45px; }
-  /* line 191, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 192, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .team > h2:first-of-type {
     margin-top: 0; }
-/* line 195, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+/* line 196, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
 .team .row {
   margin-top: 35px; }
-  /* line 197, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
+  /* line 198, /Users/chief/work/westfork-middleman/source/stylesheets/_global.scss */
   .team .row:first-of-type {
     margin-top: 0; }
 
@@ -2397,51 +2399,54 @@ nav {
       -webkit-transition: all, 0.3s;
       -moz-transition: all, 0.3s;
       transition: all, 0.3s; }
-  @media screen and (min-width: 960px) {
-    /* line 43, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-    nav.trans {
-      background: none;
-      box-shadow: none; }
-      /* line 46, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-      nav.trans > .relative {
-        height: 80px; }
-      /* line 49, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-      nav.trans #siteid {
-        display: none; }
-      /* line 52, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-      nav.trans .right {
-        position: absolute;
-        top: 18px;
-        right: 20px;
-        bottom: auto;
-        left: auto; }
-      /* line 55, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-      nav.trans #hamburger {
-        position: absolute;
-        top: 15px;
-        left: 15px; }
-      /* line 58, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-      nav.trans #hamburger {
-        opacity: 1; }
-        /* line 60, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-        nav.trans #hamburger.open {
-          color: #fff; }
-          /* line 62, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-          nav.trans #hamburger.open:before {
-            border-color: #fff; }
-          /* line 65, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-          nav.trans #hamburger.open:after {
-            background-color: #fff; }
-      /* line 72, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-      nav.trans.open .right span {
-        color: #fff; }
-      /* line 75, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
-      nav.trans.open .right .button-primary {
-        background-color: #fff;
-        color: #333;
-        border-color: #fff; } }
 
-/* line 86, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+@media screen and (min-width: 960px) {
+  /* line 44, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+  body.index nav.trans {
+    background: none;
+    box-shadow: none; }
+    /* line 47, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    body.index nav.trans > .relative {
+      height: 80px; }
+    /* line 50, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    body.index nav.trans #siteid {
+      display: none; }
+    /* line 53, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    body.index nav.trans .right {
+      position: absolute;
+      top: 18px;
+      right: 20px;
+      bottom: auto;
+      left: auto; }
+      /* line 55, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+      body.index nav.trans .right span {
+        color: #222; }
+    /* line 59, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    body.index nav.trans #hamburger {
+      position: absolute;
+      top: 15px;
+      left: 15px; }
+    /* line 62, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    body.index nav.trans #hamburger {
+      opacity: 1; }
+      /* line 64, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+      body.index nav.trans #hamburger.open {
+        color: #fff; }
+        /* line 66, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+        body.index nav.trans #hamburger.open:before {
+          border-color: #fff; }
+        /* line 69, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+        body.index nav.trans #hamburger.open:after {
+          background-color: #fff; }
+    /* line 76, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    body.index nav.trans.open .right span {
+      color: #fff; }
+    /* line 79, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    body.index nav.trans.open .right .button-primary {
+      background-color: #fff;
+      color: #333;
+      border-color: #fff; } }
+/* line 89, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
 #hamburger {
   position: absolute;
   top: 0;
@@ -2453,7 +2458,7 @@ nav {
   transition: all, 0.3s;
   cursor: pointer;
   opacity: 0.6; }
-  /* line 92, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+  /* line 95, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
   #hamburger:before {
     content: "";
     display: block;
@@ -2470,7 +2475,7 @@ nav {
     box-sizing: content-box;
     border-top: 3px solid #333;
     border-bottom: 3px solid #333; }
-  /* line 102, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+  /* line 105, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
   #hamburger:after {
     content: "";
     display: block;
@@ -2485,10 +2490,10 @@ nav {
     -moz-transition: all, 0.3s;
     transition: all, 0.3s;
     background-color: #333; }
-  /* line 110, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+  /* line 113, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
   #hamburger.open {
     opacity: 1; }
-    /* line 112, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 115, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     #hamburger.open:before {
       border-bottom: 0;
       -webkit-transform: rotate(-45deg);
@@ -2501,7 +2506,7 @@ nav {
       right: auto;
       bottom: auto;
       left: 11px; }
-    /* line 117, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 120, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     #hamburger.open:after {
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
@@ -2513,7 +2518,7 @@ nav {
       right: auto;
       bottom: auto;
       left: 9px; }
-  /* line 122, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+  /* line 125, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
   #hamburger span {
     position: absolute;
     top: 0;
@@ -2524,11 +2529,11 @@ nav {
     font-weight: 700;
     display: none; }
   @media screen and (min-width: 550px) {
-    /* line 129, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 132, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     #hamburger span {
       display: block; } }
 
-/* line 134, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+/* line 137, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
 section.mobile-menu {
   position: fixed;
   top: -100%;
@@ -2544,7 +2549,7 @@ section.mobile-menu {
   background-color: rgba(214, 70, 37, 0);
   display: table;
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2); }
-  /* line 142, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+  /* line 145, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
   section.mobile-menu.open {
     position: fixed;
     top: 0px;
@@ -2552,14 +2557,14 @@ section.mobile-menu {
     bottom: auto;
     left: 0;
     background-color: rgba(214, 70, 37, 0.96); }
-  /* line 146, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+  /* line 149, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
   section.mobile-menu ul {
     display: table-cell;
     vertical-align: middle;
     margin: 0 auto;
     text-align: center;
     list-style-type: none; }
-    /* line 152, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 155, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     section.mobile-menu ul li {
       margin: 0;
       padding: 0;
@@ -2567,7 +2572,7 @@ section.mobile-menu {
       max-width: 420px;
       margin: 0 auto;
       position: relative; }
-      /* line 159, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+      /* line 162, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
       section.mobile-menu ul li a {
         font-size: 1em;
         display: block;
@@ -2584,16 +2589,16 @@ section.mobile-menu {
         -moz-transition: all, 0.3s;
         transition: all, 0.3s; }
         @media screen and (min-width: 750px) {
-          /* line 159, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+          /* line 162, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
           section.mobile-menu ul li a {
             font-size: 24px; } }
-        /* line 175, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+        /* line 178, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
         section.mobile-menu ul li a:hover {
           color: rgba(250, 250, 250, 0.8); }
-        /* line 178, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+        /* line 181, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
         section.mobile-menu ul li a:active {
           color: #D64625; }
-    /* line 184, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 187, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     section.mobile-menu ul li.submenu:not(.open) > a:hover:after {
       content: "";
       font-family: FontAwesome;
@@ -2601,10 +2606,10 @@ section.mobile-menu {
       margin-left: 5px;
       position: absolute;
       right: 15px; }
-    /* line 193, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 196, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     section.mobile-menu ul li.submenu.open > a span {
       display: none; }
-    /* line 196, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 199, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     section.mobile-menu ul li.submenu.open > a:hover:before {
       content: "";
       font-family: FontAwesome;
@@ -2612,48 +2617,66 @@ section.mobile-menu {
       margin-left: 5px;
       position: absolute;
       left: 15px; }
-    /* line 203, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 206, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     section.mobile-menu ul li.submenu.open > a:after {
       content: "Back"; }
-    /* line 208, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 211, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     section.mobile-menu ul li.submenu ul {
       display: none; }
-      /* line 210, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+      /* line 213, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
       section.mobile-menu ul li.submenu ul li a {
         font-weight: 300;
         font-size: 18px;
         text-transform: none; }
-    /* line 218, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 221, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     section.mobile-menu ul.open > li {
       display: none; }
-    /* line 221, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+    /* line 224, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
     section.mobile-menu ul.open > li.open {
       display: block; }
-      /* line 223, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
+      /* line 226, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
       section.mobile-menu ul.open > li.open ul {
         display: block; }
 
-/* line 2, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
-footer .container {
-  max-width: 460px; }
-/* line 5, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
-footer ul {
-  list-style-type: none; }
+/* line 1, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
+footer {
+  padding: 20px 0 !important;
+  text-align: center; }
+  /* line 4, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
+  footer .container {
+    max-width: 460px; }
   /* line 7, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
-  footer ul li {
-    margin-bottom: 3px; }
-/* line 11, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
-footer a, footer a:hover, footer a:active, footer a:focus {
-  color: #fff; }
+  footer ul {
+    list-style-type: none; }
+    /* line 9, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
+    footer ul li {
+      margin-bottom: 3px; }
   /* line 13, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
-  footer a:hover, footer a:hover:hover, footer a:active:hover, footer a:focus:hover {
-    color: rgba(250, 250, 250, 0.7); }
-/* line 17, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
-footer i {
-  font-size: 28px !important; }
-/* line 20, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
-footer span {
-  color: rgba(250, 250, 250, 0.4); }
+  footer a, footer a:hover, footer a:active, footer a:focus {
+    color: #fff;
+    font-weight: bold; }
+    /* line 16, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
+    footer a:hover, footer a:hover:hover, footer a:active:hover, footer a:focus:hover {
+      color: rgba(250, 250, 250, 0.7); }
+  /* line 20, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
+  footer i {
+    font-size: 28px !important; }
+  /* line 23, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
+  footer span {
+    color: rgba(250, 250, 250, 0.6);
+    font-size: 10px; }
+  /* line 27, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
+  footer .muted {
+    margin-top: 10px;
+    font-size: 12px; }
+  @media (min-width: 860px) {
+    /* line 33, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
+    footer ul li {
+      display: inline-block; }
+      /* line 35, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_footer.scss */
+      footer ul li a {
+        display: block;
+        padding: 0 10px; } }
 
 /* line 1, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
 .project-module {
@@ -2726,6 +2749,11 @@ footer span {
   display: block;
   margin: 0 0 10px 0; }
 
+@media (min-width: 860px) {
+  /* line 69, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_projects.scss */
+  .fixer {
+    margin-left: 25% !important; } }
+
 /* line 1, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
 .hero {
   padding: 80px 15px;
@@ -2791,18 +2819,32 @@ footer span {
           /* line 59, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
           .l-home-splash .columns.four ul a:hover, .l-home-splash .columns.four ul a:active:hover, .l-home-splash .columns.four ul a:visited:hover {
             color: #ccc; }
-    /* line 65, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
-    .l-home-splash .columns.eight {
-      width: 69.33333%; }
-  /* line 69, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      /* line 64, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      .l-home-splash .columns.four .button {
+        margin-top: 20px; }
+    @media (min-width: 860px) {
+      /* line 69, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      .l-home-splash .columns.eight {
+        width: 69.3%; } }
+  /* line 74, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+  .l-home-splash img {
+    max-width: 160%; }
+  /* line 77, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
   .l-home-splash .slider {
     width: 100%;
-    height: 400px;
+    height: 240px;
     position: relative;
     overflow: hidden;
     margin: 0; }
+    /* line 83, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+    .l-home-splash .slider li {
+      margin: 0; }
+    @media (min-width: 860px) {
+      /* line 77, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      .l-home-splash .slider {
+        height: 400px; } }
 
-/* line 78, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+/* line 92, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
 .home-projects {
   background: url("../images/example.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -2816,35 +2858,35 @@ footer span {
   -moz-transition: background-image, 0.3s;
   transition: background-image, 0.3s; }
   @media screen and (min-width: 750px) {
-    /* line 78, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+    /* line 92, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
     .home-projects {
       text-align: left; }
-      /* line 89, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      /* line 103, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
       .home-projects {
         height: 500px; } }
-  /* line 94, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+  /* line 108, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
   .home-projects .columns {
     margin: 0; }
-    /* line 96, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+    /* line 110, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
     .home-projects .columns:first-of-type .header {
       background: #D64625; }
-      /* line 98, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      /* line 112, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
       .home-projects .columns:first-of-type .header a {
         color: #fff; }
-    /* line 102, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+    /* line 116, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
     .home-projects .columns:last-of-type .header {
       background: #D64625;
       color: #fff;
       display: none;
       position: relative;
       text-transform: uppercase; }
-      /* line 108, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      /* line 122, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
       .home-projects .columns:last-of-type .header h5 {
         width: 75%;
         white-space: nowrap;
         overflow-x: hidden;
         text-overflow: ellipsis; }
-      /* line 114, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      /* line 128, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
       .home-projects .columns:last-of-type .header .learn {
         position: absolute;
         right: 0;
@@ -2852,76 +2894,79 @@ footer span {
         padding-right: 25px;
         width: 20%;
         text-align: right; }
-  /* line 122, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+  /* line 136, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
   .home-projects .header {
     padding: 30px 15px 10px 15px; }
-    /* line 124, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+    /* line 138, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
     .home-projects .header h5 {
       margin: 0; }
   @media screen and (min-width: 750px) {
-    /* line 129, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+    /* line 143, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
     .home-projects .eight.columns {
       width: 69.33333%; }
-    /* line 132, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+    /* line 146, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
     .home-projects .columns {
       height: 100%; }
-      /* line 134, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      /* line 148, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
       .home-projects .columns:first-of-type .header {
         background: rgba(250, 250, 250, 0.8); }
-        /* line 136, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+        /* line 150, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
         .home-projects .columns:first-of-type .header a {
           color: #333; }
-      /* line 140, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      /* line 154, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
       .home-projects .columns:last-of-type .header {
         display: block; } }
-  /* line 145, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+  /* line 159, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
   .home-projects .body {
     background: rgba(250, 250, 250, 0.5);
     display: block;
     height: 100%; }
-    /* line 149, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+    /* line 163, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
     .home-projects .body ul {
       list-style-type: none;
       margin: 0;
       padding: 15px; }
-      /* line 153, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+      /* line 167, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
       .home-projects .body ul a {
         color: #333;
         font-weight: 700;
         text-transform: uppercase;
         font-size: 18px;
         display: block; }
-        /* line 159, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+        /* line 173, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
         .home-projects .body ul a p {
           display: none; }
-        /* line 162, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+        /* line 176, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
         .home-projects .body ul a img {
           display: none; }
-        /* line 165, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+        /* line 179, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
         .home-projects .body ul a.active {
           color: #D64625; }
 
-/* line 174, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
-.home-services h2 {
-  font-size: 75px; }
-/* line 177, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
-.home-services h3 {
-  font-size: 35px; }
+/* line 187, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+.home-services {
+  width: 75%; }
+  /* line 188, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+  .home-services h2 {
+    font-size: 75px; }
+  /* line 191, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+  .home-services h3 {
+    font-size: 35px; }
 
-/* line 183, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+/* line 198, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
 .home-about h2 {
   display: inline-block;
   float: left; }
-/* line 187, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+/* line 202, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
 .home-about .learn {
   float: right;
   line-height: 60px; }
-/* line 191, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+/* line 206, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
 .home-about .button {
   color: #fff;
   display: block; }
 @media screen and (min-width: 750px) {
-  /* line 196, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+  /* line 211, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
   .home-about .button {
     display: inline-block;
     margin-right: 15px; } }
@@ -2929,6 +2974,67 @@ footer span {
 /* line 1, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_services.scss */
 .number {
   font-size: 120px !important; }
+
+/* line 5, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_services.scss */
+.blueprint {
+  background: url("../images/blueprint2.jpg") no-repeat center scroll;
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  /* line 10, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_services.scss */
+  .blueprint .overlay {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5); }
+  /* line 19, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_services.scss */
+  .blueprint h1, .blueprint h2 {
+    position: relative;
+    z-index: 2; }
+
+/* line 25, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_services.scss */
+ul.numbered {
+  position: relative; }
+  /* line 27, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_services.scss */
+  ul.numbered li {
+    padding: 0; }
+  /* line 30, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_services.scss */
+  ul.numbered span {
+    line-height: 25px;
+    font-size: 28px;
+    position: absolute;
+    left: -32px; }
+
+/* line 1, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_about.scss */
+.flexbox {
+  overflow: hidden;
+  text-align: center; }
+  /* line 4, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_about.scss */
+  .flexbox .button {
+    color: #fff; }
+  /* line 7, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_about.scss */
+  .flexbox .col {
+    color: #fff;
+    padding: 50px 0; }
+    /* line 10, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_about.scss */
+    .flexbox .col:nth-child(1) {
+      background-color: #35492F; }
+    /* line 13, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_about.scss */
+    .flexbox .col:nth-child(2) {
+      background-color: #333; }
+  @media (min-width: 900px) {
+    /* line 1, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_about.scss */
+    .flexbox {
+      display: flex;
+      display: -webkit-flex;
+      display: -ms-flexbox; }
+      /* line 21, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_about.scss */
+      .flexbox .col {
+        flex: 1;
+        order: 0; } }
 /*
 
 */
