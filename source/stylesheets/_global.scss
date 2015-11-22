@@ -142,6 +142,9 @@ video {
 	&.black {
 		background: #333;
 		color: #fff;
+		.button {
+			color: #fff;
+		}
 	}
 	&.orange {
 		background: $orange;
