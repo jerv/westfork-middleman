@@ -7,9 +7,27 @@
 #   config.output_style = :compact
 # end
 
-data.projectdata.projects.each do |p|
-  proxy "#{p.slug}.html", "project.html", :locals => { :project => p }, :ignore => true
+apartments = data.projectdata.apartments
+medical = data.projectdata.medical
+commercial = data.projectdata.commercial
+newest = data.projectdata.newest
+
+apartments.each do |p|
+  proxy "/projects/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
 end
+
+medical.each do |p|
+  proxy "/projects/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
+end
+
+commercial.each do |p|
+  proxy "/projects/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
+end
+
+newest.each do |p|
+  proxy "/projects/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
+end
+
 
 ###
 # Page options, layouts, aliases and proxies

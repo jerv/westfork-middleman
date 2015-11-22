@@ -15,19 +15,19 @@ title: General Contractor in Sacermento CA | Westfork Construction
     <div class="columns four">
       <h5>Projects</h5>
       <ul class="slid">
-        <a href="projects.html#Apartments">
-          <li>Apartment</li>
-        </a>
-        <a href="projects.html#Apartments">
-          <li>Medical</li>
-        </a>
-        <a href="projects.html#Apartments">
-          <li>Commercial</li>
-        </a>
-        <a href="projects.html#Apartments">
-          <li>New Projects</li>
-        </a>
-        <a style="color:white;margin-top:20px" class="button" href="projects.html">view all</a>
+        <li>
+          <%= link_to 'Apartment', 'projects.html' %></li>
+        </li>
+        <li>
+          <%= link_to 'Medical', 'projects.html' %></li>
+        </li>
+        <li>
+          <%= link_to 'Commercial', 'projects.html' %></li>
+        </li>
+        <li>
+          <%= link_to 'New Projects', 'projects.html' %></li>
+        </li>
+        <%= link_to 'View all', 'projects.hmtl', :class=>'button' %>
       </ul>
     </div>
     <div class="columns eight">
@@ -44,7 +44,7 @@ title: General Contractor in Sacermento CA | Westfork Construction
 <div class="banner green">
   <h2>Construction Services</h2>
 </div>
-<div style="width:70%" class="window container row home-services">
+<div class="window container row home-services">
   <div class="columns four">
     <h2 class="styled text-center orange">#1</h2>
     <h3 class="styled text-center">Pre Construction</h3>
@@ -61,7 +61,9 @@ title: General Contractor in Sacermento CA | Westfork Construction
     <p>The end of construction is not the end of our relationship. We continue to serve our Owners to make sure all aspects of our project are satisfied and meet our client expectations. We believe that our post construction services are the bridge to our next project. </p>
   </div>
   <div class="columns twelve">
-    <a href="services.html" class="learn text-center">More <i class="fa fa-chevron-right"></i></a>
+    <% link_to 'services.html', :class=>'learn text-center' do %>
+      More <i class="fa fa-chevron-right"></i>
+    <% end %>
   </div>
 </div>
 <div class="window black home-about">
@@ -72,15 +74,17 @@ title: General Contractor in Sacermento CA | Westfork Construction
     <div class="columns six">
       <div class="row">
         <h2 class="light">
-              About us
-            </h2>
-        <a style="color:white;" href="about.html" class="learn">More <i class="fa fa-chevron-right"></i></a>
+          About us
+        </h2>
+        <% link_to 'about.html', :class=>'learn' do %>
+          More <i class="fa fa-chevron-right"></i>
+        <% end %>
       </div>
       <p>
         Westfork Construction has been specializing in negotiated, design/build projects since 1995. Our long list of diverse projects include: retail, commercial office, mixed-use, multi-family and healthcare buildings ranging from
         <$1m to $25M+. With an honest, collaborative and straight-forward approach we are committed to building long term relationships with our clients. </p>
-          <a class="button" href="team.html">Management Team</a>
-          <a class="button" href="careers.html">Careers</a>
+        <%= link_to 'Management Team', 'team.html', :class=>'button' %>
+        <%= link_to 'Careers', 'careers.html', :class=>'button' %>
     </div>
   </div>
 </div>

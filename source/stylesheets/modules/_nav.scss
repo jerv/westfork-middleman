@@ -39,44 +39,47 @@ nav {
   			@include transition(all, 0.3s);
   		}
 	}
-	@media screen and (min-width:960px) {
-		&.trans {
-			background:none;
-			box-shadow: none;
-			> .relative {
-				height: 80px;
+}
+@media screen and (min-width:960px) {
+	body.index nav.trans {
+		background:none;
+		box-shadow: none;
+		> .relative {
+			height: 80px;
+		}
+		#siteid {
+			display: none;
+		}
+		.right {
+			@include position(absolute, 18px 20px auto auto);
+			span {
+				color: #222;
 			}
-			#siteid {
-				display: none;
-			}
-			.right {
-				@include position(absolute, 18px 20px auto auto);
-			}
-			#hamburger {
-				@include position(absolute, 15px null null 15px);
-			}
-			#hamburger {
-				opacity: 1;
-				&.open {
-					color: #fff;
-					&:before {
-						border-color:#fff;
-					}
-					&:after {
-						background-color: #fff;
-					}
+		}
+		#hamburger {
+			@include position(absolute, 15px null null 15px);
+		}
+		#hamburger {
+			opacity: 1;
+			&.open {
+				color: #fff;
+				&:before {
+					border-color:#fff;
+				}
+				&:after {
+					background-color: #fff;
 				}
 			}
-			&.open {
-				.right {
-					span {
-						color: #fff;
-					}
-					.button-primary {
-						background-color: #fff;
-						color: #333;
-						border-color: #fff;
-					}
+		}
+		&.open {
+			.right {
+				span {
+					color: #fff;
+				}
+				.button-primary {
+					background-color: #fff;
+					color: #333;
+					border-color: #fff;
 				}
 			}
 		}

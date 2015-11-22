@@ -65,3 +65,9 @@
 		margin: 0 0 10px 0;
 	}
 }
+
+.fixer {
+	@media (min-width:860px) {
+		margin-left: 25% !important;
+	}
+}

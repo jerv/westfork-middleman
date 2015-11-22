@@ -1,0 +1,26 @@
+.flexbox {
+  overflow: hidden;
+  text-align: center;
+  .button {
+  	color: #fff;
+  }
+	.col {
+		color: #fff;
+		padding: 50px 0;
+		&:nth-child(1) {
+			background-color: #35492F;
+		}
+		&:nth-child(2) {
+		  background-color: #333;
+		}
+	}
+	@media (min-width:900px) {
+		display: flex;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		.col {
+			flex: 1;
+			order: 0;
+		}
+	}
+}
