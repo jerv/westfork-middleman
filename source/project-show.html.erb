@@ -11,9 +11,9 @@ title: <%= project.title %> | Westfork Construction
   <div class="columns four projects-images">
     <% unless project.images.blank? %>
       <% project.images.each do |i| %>
-        <% link_to i do %>
+        <a href="../images/<%=i%>">
           <img src="../images/<%=i%>">
-        <% end %>
+        </a>
       <% end %>
     <% else %>
       <p>No images</p>
