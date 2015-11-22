@@ -65,14 +65,14 @@ medical:
     slug: fort
     address: 2801 K Street, Sacramento, CA
     images: 
-     - fort1.jpg
-     - fort2.jpg
-     - fort3.jpg
-     - fort4.jpg
-     - fort5.jpg
-     - fort6.jpg
-     - fort7.jpg
-     description: |
+      - fort1.jpg
+      - fort2.jpg
+      - fort3.jpg
+      - fort4.jpg
+      - fort5.jpg
+      - fort6.jpg
+      - fort7.jpg
+    description: |
       West Fork has performed a majority of tenant improvements in this 96,000 sq. ft. medical complex. Improvements started in 1986, and West Fork has returned to perform several remodels for our original customers.
   -
     title: Lincoln Sutter Medical Plaza
