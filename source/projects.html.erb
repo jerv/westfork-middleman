@@ -54,6 +54,17 @@ title: Projects
 				</div>
 			<% end %>
 		</div>
+		<h2>Man Lift Elevators</h2>
+		<div class="row">
+			<% data.projectdata.manliftelevators.each do |elev| %>
+				<div class="columns four">
+					<a href="<%= elev.slug %>.html">
+					  <img src="images/<%= elev.images[0] %>">
+					  <h5><%= elev.title %></h5>
+					</a>
+				</div>
+			<% end %>
+		</div>
 	</div>
 </div>
 
