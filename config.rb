@@ -11,6 +11,7 @@ apartments = data.projectdata.apartments
 medical = data.projectdata.medical
 commercial = data.projectdata.commercial
 newest = data.projectdata.newest
+manliftelevators = data.projectdata.manliftelevators
 
 apartments.each do |p|
   proxy "/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
@@ -25,6 +26,10 @@ commercial.each do |p|
 end
 
 newest.each do |p|
+  proxy "/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
+end
+
+manliftelevators.each do |p|
   proxy "/#{p.slug}.html", "project-show.html", :locals => { :project => p }, :ignore => true
 end
 

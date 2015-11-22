@@ -11,7 +11,7 @@ apartments:
       - 16th5.jpg
       - 16th6.jpg
     description: |
-      Project Description: Design building to include one 4 story mixed use apartments with wood and steel construction and one 5-story building with concrete podium deck and 4 stories of wood frame above. The 4-story building includes 6,160 sq ft of first floor retail and 24 apartment units above, totaling 35,820 building sq ft. The second building is 5-stories including 14,818 sq ft of first floor retail and 60 apartment units above, totaling 72,594 building sq ft.
+      Design building to include one 4 story mixed use apartments with wood and steel construction and one 5-story building with concrete podium deck and 4 stories of wood frame above. The 4-story building includes 6,160 sq ft of first floor retail and 24 apartment units above, totaling 35,820 building sq ft. The second building is 5-stories including 14,818 sq ft of first floor retail and 60 apartment units above, totaling 72,594 building sq ft.
   -
     title: 65TH & FOLSOM
     slug: 65th
@@ -21,8 +21,24 @@ apartments:
       - 65th2.jpg
       - 65th3.jpg
       - 65th4.jpg
+      - 65th5.jpg
+      - 65th6.jpg
     description: |
       This project was a Design Build project very similar construction as the 16th & O project. The work included site work, underground, paving, swimming pool with spa, landscaping, construction of single story wood framed retail shell building, approximately 10,655 GSF, two wood framed four story apartment buildings, approximately 60,340 GSF each including decks, one wood framed three story Live/Work building, approximately 14,791 GSF including decks, one wood framed single story pool room, approximately 700 GSF.
+manliftelevators:
+  -
+    title: Bunge Woodland Rice Mill
+    slug: bunge
+    address: Woodland, CA
+    images: 
+      - bunge1.jpg
+      - bunge2.jpg
+      - bunge3.jpg
+      - bunge4.jpg
+      - bunge5.jpg
+      - bunge6.jpg
+    description: |
+      This Special Purpose Personnel Elevator (SPPE) was built in Woodland, CA in 2015.  Our Agricultural Customers are using these to replace out dated man-lifts throughout the greater San Joaquin Valley area.  We are currently building several of these service elevators in Agricultural Silos for customers like General Mills, Land-O-Lakes (Purina) and Bunge.
 medical:
   -
     title: Greenback Oaks
@@ -43,7 +59,36 @@ medical:
       - sutter1.jpg
       - sutter2.jpg
     description: |
-      Project Description: This was a Design/Build 46,000 sq. ft. construction of new medical office and common area with a 120 calendar days schedule. Project was completed on time and West Fork Construction was able to return $190,000 to the owners through value engineering by the IPD Team. Project Size: 46,000 sq. ft.
+      This was a Design/Build 46,000 sq. ft. construction of new medical office and common area with a 120 calendar days schedule. Project was completed on time and West Fork Construction was able to return $190,000 to the owners through value engineering by the IPD Team.
+  -
+    title: Fort Sutter Tenant Improvements
+    slug: fort
+    address: 2801 K Street, Sacramento, CA
+    images: 
+     - fort1.jpg
+     - fort2.jpg
+     - fort3.jpg
+     - fort4.jpg
+     - fort5.jpg
+     - fort6.jpg
+     - fort7.jpg
+     description: |
+      West Fork has performed a majority of tenant improvements in this 96,000 sq. ft. medical complex. Improvements started in 1986, and West Fork has returned to perform several remodels for our original customers.
+  -
+    title: Lincoln Sutter Medical Plaza
+    slug: lincoln
+    address: Lincoln, CA
+    images:
+      - lincoln1.jpg
+      - lincoln2.jpg
+      - lincoln3.jpg
+      - lincoln4.jpg
+      - lincoln5.jpg
+      - lincoln6.jpg
+      - lincoln7.jpg
+      - lincoln8.jpg
+    description: |
+
   -
     title: Sutter Medical Plaza Pediatrics
     slug: sutter-pediatrics
@@ -52,18 +97,32 @@ medical:
       - sut1.jpg
       - sut2.jpg
       - sut3.jpg
+      - sut4.jpg
     description: |
-      Project Description: This was a Design/Build 46,000 sq. ft. construction of new medical office and common area with a 120 calendar days schedule. Project was completed on time and West Fork Construction was able to return $190,000 to the owners through value engineering by the IPD Team. Project Size: 46,000 sq. ft.
+      West Fork's tenant improvements included using the highest quality materials available to make an aesthetically pleasing and long lasting build out.  West Fork's T.I. included the entire 46,000 sq. ft. interior space.
 commercial:
   -
     title: Department of Human Assistance
     slug: dep-human-assistance
-    address: SACREMENTO, CA
+    address: Sacramento, CA
     images: 
       - dep1.jpg
       - dep2.jpg
+      - dep3.jpg
+      - dep4.jpg
+      - dep5.jpg
+      - dep6.jpg
     description: |
       Project Description: A Design Build project, privately owned and leased to the County of Sacramento Department of Human Assistance. This project involved extensive pre-construction planning with the Architect, Structural Engineer, Developer, County of Sacramento, and MEP Contractors. The work was divided into four phases. During each phase of construction all other areas remained fully functional for the tenant. Building 96,000 sq. ft
+  -
+    title: Starbucks
+    address: 3615 Power Inn Road, Sacramento, CA
+    images: 
+      -star1.jpg
+      -star2.jpg
+      -star3.jpg
+    description: |
+       West Fork built the building to match adjacent architecture and includes a drive-thru / parking / landscaping.
   -
     title: Granite Park
     slug: granite
@@ -77,12 +136,30 @@ commercial:
       This project included the construction of a skate park, all weather sports field and a dog park with a 2-acre pond.
 newest:
   -
-    title: Food Coop Parking Garage
+    title: Sutter Roseville Medical Office Building & Parking Structure
+    slug: roseville
+    address: Roseville, CA
+    images:
+      - rose1.jpg
+      - rose2.jpg
+      - rose3.jpg
+      - rose4.jpg
+      - rose5.jpg
+      - rose6.jpg
+      - rose7.jpg
+      - rose8.jpg
+    description: |
+      Located in Sutter's Roseville Medical Complex at North Sunrise Ave., the 5 story parking structure will provide 475 spaces,  and will be next to a 3 story 60,000 sq. ft medical office building.  West Fork will also be performing many of the tenant improvements for this site.
+  -
+    title: Natural Food Grocery Outlet & Parking Garage
     slug: food
-    address: 1111 address
+    address: R and 28th Streets, Midtown Sacramento
     images: 
       - food1.jpg
       - food2.jpg
       - food3.jpg
+      - food4.jpg
+      - food5.jpg
+      - food6.jpg
     description: |
-      description here
+      West Fork is building a 42,000 sq.ft. center to include a 4 level parking garage and over 20,000 sq. ft. of retail for Sacramento's Natural Foods CO-OP.
