@@ -515,11 +515,10 @@ legend {
   display: block;
   margin-bottom: .5rem;
   font-weight: normal;
+  font-weight: bold;
+  text-transform: uppercase;
   span {
     color: red;
-  }
-  &:after {
-    content:":";
   }
 }
 

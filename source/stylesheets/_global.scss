@@ -39,6 +39,10 @@ h1.header-margin, h2.header-margin, h3.header-margin, h4.header-margin, h5.heade
 	margin:0 !important;
 }
 
+.margin-bottom {
+	margin-bottom: 25px !important;
+}
+
 a.white, a.white:hover, a.white:active, a.white:focus {
 	color: #fff;
 }
@@ -83,6 +87,13 @@ video {
 
 .text-center {
 	text-align:center;
+}
+
+.centered {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	max-width: 120px;
 }
 
 .relative {
