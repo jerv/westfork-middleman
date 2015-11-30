@@ -1216,7 +1216,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1042;
+  z-index: 10001;
   overflow: hidden;
   position: fixed;
   background: #0b0b0b;
@@ -1229,7 +1229,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1043;
+  z-index: 10002;
   position: fixed;
   outline: none !important;
   -webkit-backface-visibility: hidden; }
@@ -1265,7 +1265,7 @@ hr {
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: 1045; }
+  z-index: 10004; }
 
 /* line 151, /Users/chief/work/westfork-middleman/source/stylesheets/plugins/magnific/_main.scss */
 .mfp-inline-holder .mfp-content,
@@ -1321,7 +1321,7 @@ hr {
   margin-top: -0.8em;
   left: 8px;
   right: 8px;
-  z-index: 1044; }
+  z-index: 10003; }
   /* line 231, /Users/chief/work/westfork-middleman/source/stylesheets/plugins/magnific/_main.scss */
   .mfp-preloader a {
     color: #CCC; }
@@ -1347,7 +1347,7 @@ button.mfp-close, button.mfp-arrow {
   display: block;
   outline: none;
   padding: 0;
-  z-index: 1046;
+  z-index: 10005;
   -webkit-box-shadow: none;
   box-shadow: none; }
 /* line 269, /Users/chief/work/westfork-middleman/source/stylesheets/plugins/magnific/_main.scss */
@@ -2365,7 +2365,7 @@ nav {
   width: 100%;
   top: 0;
   background-color: #fff;
-  z-index: 9001; }
+  z-index: 1000; }
   /* line 9, /Users/chief/work/westfork-middleman/source/stylesheets/modules/_nav.scss */
   nav > .relative {
     max-width: 1200px;
@@ -2557,7 +2557,7 @@ section.mobile-menu {
   -webkit-transition: all, 0.3s ease-out;
   -moz-transition: all, 0.3s ease-out;
   transition: all, 0.3s ease-out;
-  z-index: 9000;
+  z-index: 999;
   background-color: rgba(214, 70, 37, 0);
   display: table;
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2); }
@@ -2866,7 +2866,7 @@ footer {
   /* line 77, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
   .l-home-splash .slider {
     width: 100%;
-    height: 240px;
+    height: 260px;
     position: relative;
     overflow: hidden;
     margin: 0; }
@@ -2876,7 +2876,7 @@ footer {
     @media (min-width: 860px) {
       /* line 77, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
       .l-home-splash .slider {
-        height: 400px; } }
+        height: 420px; } }
 
 /* line 92, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
 .home-projects {
@@ -2988,19 +2988,15 @@ footer {
     font-size: 35px; }
 
 /* line 198, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
-.home-about h2 {
-  display: inline-block;
-  float: left; }
-/* line 202, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
 .home-about .learn {
   float: right;
   line-height: 60px; }
-/* line 206, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+/* line 202, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
 .home-about .button {
   color: #fff;
   display: block; }
 @media screen and (min-width: 750px) {
-  /* line 211, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
+  /* line 207, /Users/chief/work/westfork-middleman/source/stylesheets/layouts/_home.scss */
   .home-about .button {
     display: inline-block;
     margin-right: 15px; } }
